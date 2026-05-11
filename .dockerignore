@@ -1,0 +1,25 @@
+# Node
+node_modules
+dist
+coverage
+
+# VCS и IDE
+.git
+.gitignore
+.idea
+.vscode
+
+# Config
+.env
+.env.*
+!.env.example
+
+# Docker
+docker-compose*.yml
+.dockerignore
+Dockerfile*
+
+# Tests
+e2e
+docs
+README.md

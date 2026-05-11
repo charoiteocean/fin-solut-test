@@ -1,0 +1,9 @@
+
+POST http://localhost:3000/notifications
+Content-Type: application/json
+
+{
+    "title":"Test",
+    "message":"Hello",
+    "chatId":"YOUR_CHAT_ID"
+}
